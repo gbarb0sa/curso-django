@@ -162,6 +162,8 @@ h6 {
 
 .recipe-list-item {
     max-width: 64rem;
+    height: fit-content;
+
 }
 
 .recipe-list-item:hover {
@@ -260,4 +262,7 @@ h6 {
 
 .main-footer a:hover {
     filter: brightness(.8);
+}
+.preparation_steps{
+    padding: var(--spacing-gutter-medium);
 }
