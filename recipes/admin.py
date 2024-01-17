@@ -26,7 +26,6 @@ class RecipeAdmin(admin.ModelAdmin):
     # ordering = ('id',)
     # list_filter = ('category', 'is_published')
     # autocomplete_fields = ('category', 'author')
-    readonly_fields = ('id', 'created_at', 'updated_at')
 
 
 admin.site.register(Category, CategoryAdmin)
